@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>QCM - Informatique</title>
+  <link rel="stylesheet" href="tp1.css">
+</head>
+
+<body>
+
+  <h2>QCM Informatique:</h2>
+
+  <form id="qcmform">
+
+    <div class="question">
+      <p>1. Les principaux périphériques d’entrée sont :</p>
+      <label><input type="checkbox" name="lang" value="le clavier"> le clavier</label><br>
+      <label><input type="checkbox" name="lang" value="la souris"> la souris</label><br>
+      <label><input type="checkbox" name="lang" value="l'imprimante"> l'imprimante</label><br>
+      <label><input type="checkbox" name="lang" value="le scanner"> le scanner</label>
+    </div>
+
+    <div class="question">
+      <p>2. Les principaux langages du front-end sont :</p>
+      <label><input type="checkbox" name="per" value="html"> HTML</label><br>
+      <label><input type="checkbox" name="per" value="Css"> CSS</label><br>
+      <label><input type="checkbox" name="per" value="js"> JavaScript</label><br>
+      <label><input type="checkbox" name="per" value="C#"> C#</label>
+    </div>
+
+    <div class="question">
+      <p>3. Les systèmes d’exploitation sont :</p>
+      <label><input type="checkbox" name="sym" value="windows"> Windows</label><br>
+      <label><input type="checkbox" name="sym" value="Linux"> Linux</label><br>
+      <label><input type="checkbox" name="sym" value="macOS"> macOS</label><br>
+      <label><input type="checkbox" name="sym" value="photoshop"> Photoshop</label>
+    </div>
+
+    <div class="question">
+      <p>4. La capitale du Maroc :</p>
+      <label><input type="radio" name="cpm" value="Rabat"> Rabat</label><br>
+      <label><input type="radio" name="cpm" value="Fes"> Fès</label><br>
+      <label><input type="radio" name="cpm" value="Agadir"> Agadir</label><br>
+      <label><input type="radio" name="cpm" value="Tanger"> Tanger</label>
+    </div>
+
+    <div class="question">
+      <p>5. La capitale de la France :</p>
+      <label><input type="radio" name="cpf" value="Lile"> Lille</label><br>
+      <label><input type="radio" name="cpf" value="Monaco"> Monaco</label><br>
+      <label><input type="radio" name="cpf" value="Paris"> Paris</label><br>
+      <label><input type="radio" name="cpf" value="Marseille"> Marseille</label>
+    </div>
+
+    <button type="button" id="init" onclick="initQCM()">Initialiser</button>
+    <button type="button" id="resultat" onclick="afficherResultat()">Afficher le résultat</button>
+    <button type="button" id="corrige" onclick="afficherCorrige()">Afficher le corrigé</button>
+
+  </form>
+
+
+  <script src="tp1.js"></script>
+
+</body>
+
+</html>

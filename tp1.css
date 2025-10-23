@@ -1,0 +1,39 @@
+form {
+    margin: 13px;
+    font-size: 15px;
+}
+body{
+    background: linear-gradient(180deg,white,rgb(171, 165, 165));
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+button{
+    margin: 12px;
+    border-radius: 12px;
+    height: 30px;
+    
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+
+
+}
+#init{
+    background: rgb(7, 13, 100);
+    color: white;
+}
+#resultat{
+    background:rgb(131, 13, 25) ;
+    color: white;
+}
+#corrige{
+    background: green;
+    color: white;
+}
+p{
+    color: rgb(115, 65, 65);
+}
+h2{
+    letter-spacing: 6px;
+}
